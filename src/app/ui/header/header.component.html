@@ -1,0 +1,64 @@
+
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="">Avenir Garanti</a>
+    <img width="50" alt="AQUILAM Logo" src="./assets/logo-aquilam.png">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+              <a class="nav-link" routerLink="" >Accueil</a>
+            </li>
+        <li class="nav-item ">
+          <a class="nav-link" routerLink="menu/about/" >Qui sommes nous ?</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Entreprises
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+            <a class="dropdown-item" routerLink="menu/tpe-pme">TPE - PME</a>
+            <a class="dropdown-item" routerLink="menu/assureurs">Assureurs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Courtiers
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+            <a class="dropdown-item" routerLink="menu/courtier-simples">Courtiers de proximité</a>
+            <a class="dropdown-item" routerLink="menu/courtier-grossistes">Courtiers grossistes</a>
+          </div>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="menu/services/">Services</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="menu/blogs/">Blog</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" routerLink="menu/contact/">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+  
+  <div class="navbar-expand ml-auto navbar-nav">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/menu/login" >
+          Connexion
+        </a>
+      <a class="nav-item nav-link" href="https://twitter.com/armand" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a class="nav-item nav-link" href="https://medium.com/@armand" target="_blank">
+        <i class="fa fa-medium"></i>
+      </a>
+    </div>
+  </div>
+</nav>
