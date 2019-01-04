@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,9 +17,12 @@ import { LoginComponent } from './menu/login/login.component';
 import { CourtierSimplesComponent } from './menu/courtier-simples/courtier-simples.component';
 import { CourtierGrossistesComponent } from './menu/courtier-grossistes/courtier-grossistes.component';
 import { HttpClientModule } from '@angular/common/http';
-import { HotelModule } from './hotel/hotel.module';
 import { TpePmeComponent } from './menu/tpe-pme/tpe-pme.component';
 import { AssureursComponent } from './menu/assureurs/assureurs.component';
+import { RegisterComponent } from './menu/register/register.component';
+import { UserdetailComponent } from './view/userdetail/userdetail.component';
+import { UserListComponent } from './view/user-list/user-list.component';
+
 
 @NgModule({
   declarations: [
@@ -35,14 +39,18 @@ import { AssureursComponent } from './menu/assureurs/assureurs.component';
     CourtierSimplesComponent,
     CourtierGrossistesComponent,
     TpePmeComponent,
-    AssureursComponent
+    AssureursComponent,
+    RegisterComponent,
+    UserdetailComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     UiModule,
-    HotelModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

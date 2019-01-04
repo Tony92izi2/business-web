@@ -1,0 +1,30 @@
+<div class="container" style="margin-top: 2%">
+
+    <div class="jumbotron">
+  <div *ngIf="currentUser " class="container">
+      <div class="card card-signin my-5">
+    <div>
+      <label>Nom: </label> &nbsp; &nbsp; &nbsp;
+       {{currentUser.lastName}}
+    </div>
+    <div>
+      <label>Prenom: </label> &nbsp; &nbsp; &nbsp;
+      {{currentUser.firstName}}
+    </div>
+    <div>
+      <label>Nom d'utilisateur: </label> &nbsp; &nbsp; &nbsp;
+      {{currentUser.username}}
+    </div>
+    <div>
+      <label>Mot de passe: </label> &nbsp; &nbsp; &nbsp;
+       {{currentUser.id}}
+    </div>
+   
+  
+    <hr/>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  
